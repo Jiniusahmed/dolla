@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.navbar {
+  background: #131313;
+  padding: 1rem 8rem;
+  z-index: 1000;
+}
+
+.navbar .navbar-branda {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.navbar #navbarSupportedContent button {
+  background: #00BF85;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+}
+
+.navbar #navbarSupportedContent button:hover {
+  color: #fff !important;
+  background: #131313;
+  border: 1px solid #00BF85;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 1rem 0.8rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #00BF85;
+}
+
+.mid {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.mid video {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.mid .hero {
+  position: relative;
+}
+
+.mid .hero p {
+  width: 55%;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  padding-bottom: 2rem;
+}
+
+.mid .hero a {
+  color: #fff !important;
+  font-size: 1.1rem;
+  padding: 1rem 0.8rem;
+  background: #00BF85;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.mid .hero a:hover {
+  color: #00BF85 !important;
+  background: #fff;
+  border: 1px solid #00BF85;
+}
+
+.about {
+  background: #2b2929;
+}
+
+.about .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: auto;
+}
+
+.about .text h6 {
+  color: #00BF85;
+  font-weight: 900;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.about .text h2 {
+  color: #F7F5F4;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+
+.about .text p {
+  color: #F7F5F4;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.about .text a {
+  color: #fff !important;
+  font-size: 1.1rem;
+  padding: 1rem 0.8rem;
+  background: #00BF85;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.about .text a:hover {
+  color: #00BF85 !important;
+  background: #fff;
+}
+
+.discover {
+  background: white;
+}
+
+.discover .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: auto;
+}
+
+.discover .text h6 {
+  color: #00BF85;
+  font-weight: 900;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.discover .text h2 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 2.7rem;
+  letter-spacing: 2px;
+}
+
+.discover .text p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.discover .text a {
+  color: #fff !important;
+  font-size: 1.1rem;
+  padding: 1rem 0.8rem;
+  background: #00BF85;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.discover .text a:hover {
+  color: #00BF85 !important;
+  background: black;
+}
+
+.service {
+  background: #131313;
+}
+
+.service .one {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 1.8rem;
+  border-radius: 7px;
+}
+
+.service .one h5 {
+  font-weight: 900;
+}
+
+.sign-up {
+  background: white;
+}
+
+.sign-up .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: auto;
+}
+
+.sign-up .text h6 {
+  color: #00BF85;
+  font-weight: 900;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.sign-up .text h2 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 2.7rem;
+  letter-spacing: 2px;
+}
+
+.sign-up .text p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.sign-up .text a {
+  color: #fff !important;
+  font-size: 1.1rem;
+  padding: 1rem 0.8rem;
+  background: #00BF85;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.sign-up .text a:hover {
+  color: #00BF85 !important;
+  background: black;
+}
+
+.code-custom {
+  border-color: #00BF85 !important;
+}
+
+.code-custom:hover {
+  background: #00BF85;
+  color: #fff !important;
+}
+/*# sourceMappingURL=style.css.map */
